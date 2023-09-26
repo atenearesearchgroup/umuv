@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        <include>-->
+        <!--            <com.google.android.material.appbar.AppBarLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:theme="@style/Theme.UMuv.AppBarOverlay">-->
+
+        <!--                <androidx.appcompat.widget.Toolbar-->
+        <!--                    android:id="@+id/toolbar"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="?attr/actionBarSize"-->
+        <!--                    android:background="?attr/colorPrimary"-->
+        <!--                    app:popupTheme="@style/Theme.UMuv.PopupOverlay" />-->
+
+        <!--            </com.google.android.material.appbar.AppBarLayout>-->
+        <!--        </include>-->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:id="@+id/avatarCreateCompleteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:hint="Complete Name" />
+        <EditText
+            android:id="@+id/avatarCreatePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:inputType="phone"
+            android:hint="Phone" />
+        <EditText
+            android:id="@+id/avatarCreateEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+        <EditText
+            android:id="@+id/avatarCreateBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:inputType="date"
+            android:hint="Birth Date (dd/MM/yyyy)" />
+
+        <Button
+            android:id="@+id/avatarCreateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="createAvatar"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

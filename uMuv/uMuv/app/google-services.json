@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043062625900",
+    "project_id": "umuv-1616082980102",
+    "storage_bucket": "umuv-1616082980102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043062625900:android:eac0de5e3464c180c3aa49",
+        "android_client_info": {
+          "package_name": "com.uMuv.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043062625900-bf9vo7penr0kls7btkvm496s9li6bd8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDViSLmK1Nc8rgKEUcO-H5JvXTVBOlVMYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043062625900-bf9vo7penr0kls7btkvm496s9li6bd8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

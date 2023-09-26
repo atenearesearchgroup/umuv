@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/infoMonitoring"
+        android:layout_width="186dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="115dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoIntent"
+        android:layout_width="177dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="114dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoMonitoring" />
+</androidx.constraintlayout.widget.ConstraintLayout>
